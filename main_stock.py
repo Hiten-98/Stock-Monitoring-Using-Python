@@ -3,7 +3,7 @@ from twilio.rest import Client
 
 
 #API KEY of Twilio
-account_sid = "ACe1639a65547fb6dbd5508f3b138ca73d"
+account_sid = "YOUR TWILIO SID"
 auth_token = "YOUR TWILIO AUTH TOKEN"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
