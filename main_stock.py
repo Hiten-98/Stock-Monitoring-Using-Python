@@ -4,7 +4,7 @@ from twilio.rest import Client
 
 #API KEY of Twilio
 account_sid = "ACe1639a65547fb6dbd5508f3b138ca73d"
-auth_token = "180fb7946422e5604cc79cfcf045e33e"
+auth_token = "YOUR TWILIO AUTH TOKEN"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
@@ -58,7 +58,7 @@ for article in formatted_news:
         .create(
         body=article,
         from_='+18126128368',
-        to='+91 84509 04594'
+        to='YOUR CONTACT NUMBER'
     )
 
 
